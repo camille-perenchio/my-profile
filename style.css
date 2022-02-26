@@ -1,0 +1,91 @@
+body {
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	font-family: courier;
+    font-size: 20px;
+}
+
+h1 {
+    color: #1a0080;
+    font-family: helvetica;
+    font-weight: 400px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: rgb(100, 100, 100);
+    font-family: courrier;
+    font-size: 30px;
+    color: skyblue;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    color: #1a0080;
+}
+
+a:hover{
+    color: deeppink;
+}
+
+.container{
+    width: 700px;
+    margin: 20px auto;
+}
+
+@media (max-width:  760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width:  500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+
+.card-white {
+    background: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-blue{
+    background-color: #1a0080 ;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.btn-blue:hover {
+    background-color: black;
+    color: deeppink;
+}
+
+.list-horizontal{
+    list-style: none;
+    padding-left: 0px;
+}
+.list-horizontal li {
+    display: inline;
+    padding: 10px;
+}
+.list-horizontal i {
+    font-size: 50px;
+}
+.list-horizontal i:hover {
+    color: deeppink;
+}
+
+#intro p {
+    margin-bottom: 40px;
+}
